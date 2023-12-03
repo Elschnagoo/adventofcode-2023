@@ -22,7 +22,7 @@ const printLog = new CoreLogChannel('result', logger);
     new Day02Part01(), // 2105
     new Day02Part02(), // 72422
     new Day03Part01(), // 525119
-    new Day03Part02(devLogger), // 525119
+    new Day03Part02(), // 76504829
   ];
   for (const puzzle of puzzles) {
     const result = await puzzle.run();
