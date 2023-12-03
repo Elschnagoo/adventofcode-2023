@@ -1,6 +1,6 @@
 {
   "name": "adventofcode",
-  "version": "22.12.1",
+  "version": "23.12.3",
   "description": "AdventOfCode Project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
