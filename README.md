@@ -3,7 +3,7 @@ Advent of Code 2023
 
 ![ts](https://img.shields.io/badge/Language-Typescript-blue)
 
-This project contains my solutions to the Advent of Code 2022 puzzles.
+This project contains my solutions to the Advent of Code 2023 puzzles.
 
 > Event link: [Advent of Code 2023](https://adventofcode.com/)
 
