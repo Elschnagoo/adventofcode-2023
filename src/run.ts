@@ -7,6 +7,8 @@ import Day03Part01 from './puzzle/03/Part01';
 import Day03Part02 from './puzzle/03/Part02';
 import Day04Part01 from './puzzle/04/Part01';
 import Day04Part02 from './puzzle/04/Part02';
+import Day05Part01 from './puzzle/05/Part01';
+import Day05Part02 from './puzzle/05/Part02';
 
 const logger = new DefaultLogger(LogLevel.WARN);
 logger.setPrintTimestamp(false);
@@ -27,6 +29,8 @@ const printLog = new CoreLogChannel('result', logger);
     new Day03Part02(), // 76504829
     new Day04Part01(), // 32609
     new Day04Part02(), // 14624680
+    new Day05Part01(), // 388071289
+    new Day05Part02(), // 84206669
   ];
   for (const puzzle of puzzles) {
     const result = await puzzle.start();
